@@ -40,7 +40,7 @@ tr:nth-child(even) {
 img {
     max-width: 100%; 
     height: auto; 
-    display: block; 
+    display: flex; 
 }
 .hero { 
     background-image: url("images/Image1.jpg"); 
