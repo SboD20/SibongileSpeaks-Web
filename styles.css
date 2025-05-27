@@ -37,12 +37,17 @@ tr:nth-child(even) {
     --accent-color: #FFD700; 
 }
 /*======= Hero Section =======*/
+img {
+    max-width: 100%; 
+    height: auto; 
+    display: block; 
+}
 .hero { 
     background-image: url("images/Image1.jpg"); 
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center; 
-    width: 100%; 
+    width: 100vw; 
     height: 100vh;
     display: block; 
 }
