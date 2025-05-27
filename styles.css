@@ -10,6 +10,9 @@ body {
     box-sizing: border-box;
 }
 
+.container {
+    padding: 1px
+}
 /*======= CSS Variables =======*/
 :root { 
     --primary-color: #1A1A2E; 
