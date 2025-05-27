@@ -333,6 +333,12 @@ form {
     width: 100%; 
     max-width: 500px; 
 }
+h3 {
+    font-style: italic;
+    text-align: center;
+    font-size: clamp(40px, 2vw, 24px);
+    color: red;
+}
 h2 { 
     font-style: italic;
     text-align: center;
