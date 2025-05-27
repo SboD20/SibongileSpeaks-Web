@@ -67,8 +67,7 @@ img {
 
 /*======= Overlay Text =======*/
 .overlay-text { 
-    position: absolute; 
-    display: flex; 	
+    position: absolute; 	
     top: 50%; 
     left: 50%; 
     transform: translate(-50%, -50%); 
@@ -338,7 +337,7 @@ h3 {
     font-style: italic;
     text-align: center;
     font-size: clamp(40px, 2vw, 24px);
-    color: red;
+    color: gold;
 }
 h2 { 
     font-style: italic;
