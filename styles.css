@@ -18,6 +18,13 @@ body {
   min-height: 60vh;         
   text-align: center;
 }
+
+.content a {
+  margin: 1em 0;
+  text-decoration: none;
+  color: #0072b1;           
+  font-weight: bold;
+}
 /*======= CSS Variables =======*/
 :root { 
     --primary-color: #1A1A2E; 
