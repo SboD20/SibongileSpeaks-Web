@@ -37,11 +37,6 @@ tr:nth-child(even) {
     --accent-color: #FFD700; 
 }
 /*======= Hero Section =======*/
-img {
-    max-width: 100%; 
-    height: auto; 
-    display: flex; 
-}
 .hero { 
     background-image: url("images/Image1.jpg"); 
     background-size: cover; 
