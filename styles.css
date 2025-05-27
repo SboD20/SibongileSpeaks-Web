@@ -317,11 +317,6 @@ input, textarea {
 	height: 100%;
     }
 }
-@media (max-width: 768px) {
-    .overlay-text {
-        width: 90%;
-    }
-
 /*======= Contact Container =======*/
 
 .contact-container { 
