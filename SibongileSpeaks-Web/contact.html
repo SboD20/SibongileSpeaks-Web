@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Sibongile Dliwayo</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="contact-page">
+
+    <header class="hero" id="hero">
+        <div class="overlay-text">
+            <h1>Let's Connect</h1>
+            <p>Reach out for mentorship, coaching, or collaboration.</p>
+        </div>
+    </header>
+
+    <main class="contact-container">
+        <section id="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> <a href="mailto:sbodliwayo@gmail.com">sbodliwayo@gmail.com</a></p>
+            <p><strong>Phone:</strong> <a href="tel:+27718677146">+27 71 867 7146</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/sibongile-dliwayo-768b51153" target="_blank">Sibongile Dliwayo</a></p>
+        </section>
+
+        <section id="contact-form">
+            <h2>Send a Message</h2>
+            <form id="message-form" action="contact-form-handler.php" method="POST">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <nav>
+        <ul>
+            <li><a href="about.html">About</a></li>
+            <li><a href="testimonals.html">Testimonals</a></li>
+			<li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+     <script src="script.js"></script>
+</body>
+</html>
