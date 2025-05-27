@@ -10,6 +10,7 @@ body {
     box-sizing: border-box;
 }
 
+/*======= CSS Variables =======*/
 :root { 
     --primary-color: #1A1A2E; 
     --secondary-color: #F5F5F5; 
@@ -32,12 +33,12 @@ body {
 
 .overlay-text { 
     position: absolute; 
-    top: 50%; 
-    left: 50%; 
+    top: 50%;
+    left: 50%;
     transform: translate(-50%, -50%); 
     text-align: center; 
     background: rgba(0, 0, 0, 0.7); 
-    padding: 25px 40px;
+    padding: 2rem 2.5rem;
     border-radius: 10px;
     width: 90%;
     max-width: 600px;
@@ -53,10 +54,9 @@ body {
 }
 
 .overlay-text p {
-    color:floralwhite; 
+    color: floralwhite; 
     font-size: 1.25rem;
-    margin-top: 10px; 
-    margin-bottom: 0;
+    margin: 10px 0 0 0;
 }
 
 /*======= Navigation =======*/
@@ -89,7 +89,7 @@ nav ul li a {
     font-weight: bold; 
     color: #333; 
     font-size: 1rem;
-    transition: color 0.3s ease-in-out; 
+    transition: color 0.3s, background 0.3s;
     padding: 8px 10px;
     border-radius: 4px;
 }
@@ -143,7 +143,7 @@ tr:nth-child(even) {
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
-    transition: all 0.3s ease; 
+    transition: all 0.3s;
     margin-top: 10px;
 }
 
@@ -158,11 +158,11 @@ tr:nth-child(even) {
     background-color: #ff6600;
     color: white; 
 }
-.book-button:hover { background-color:darkgoldenrod; }
+.book-button:hover { background-color: darkgoldenrod; }
 
 button { 
     background-color: #EAB543; 
-    color:#333;
+    color: #333;
 }
 button:hover { background-color: #D4AF37; } 
 
@@ -191,7 +191,7 @@ button:hover { background-color: #D4AF37; }
     padding: 32px 6vw;
 }
 
-.testimonial-form{
+.testimonial-form {
     display: flex; 
     flex-direction: column; 
     align-items: center;
@@ -229,7 +229,7 @@ form {
     gap: 15px;
 }
 
-/*======= About =======*/
+/*======= About Section =======*/
 .text-container { 
     display: flex; 
     flex-direction: column; 
@@ -253,6 +253,7 @@ h2 {
     margin: 0.8em 0 0.5em 0;
 }
 
+/*======= Parent Container =======*/
 .parent-container {
     min-height: 100vh;
     width: 100%;
@@ -269,29 +270,14 @@ h2 {
 }
 
 @media (max-width: 768px) { 
-    .hero {
-        height: 60vh;
-    }
-    .overlay-text h1 {
-        font-size: 2rem;
-    }
-    nav ul li {
-        margin: 0 8px;
-    }
+    .hero { height: 60vh; }
+    .overlay-text h1 { font-size: 2rem; }
+    nav ul li { margin: 0 8px; }
 }
 
 @media (max-width: 600px) { 
-    nav ul {
-        flex-direction: column;
-        gap: 6px;
-    }
-    .hero {
-        height: 40vh;
-    }
-    img {
-        max-width: 100%; height:auto;
-    }
-    .testimonial-container, .overlay-text, table {
-        padding: 2vw;
-    }
+    nav ul { flex-direction: column; gap: 6px; }
+    .hero { height: 40vh; }
+    img { max-width: 100%; height: auto; }
+    .testimonial-container, .overlay-text, table { padding: 2vw; }
 }
