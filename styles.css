@@ -326,11 +326,11 @@ input, textarea {
     nav ul {
         flex-direction: column;
         align-items: stretch;
-        width: 70%;
+        width: 30%;
     }
 
     nav ul li {
-        margin: 4px 0;
+        margin: 0;
     }
 }
 /*======= Contact Container =======*/
