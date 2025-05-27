@@ -1,3 +1,6 @@
+document.addEventListener("DOMContentLoaded", () => {
+    app.init();
+});
 var app = {
     init() {
         var links = document.querySelectorAll("nav a");
