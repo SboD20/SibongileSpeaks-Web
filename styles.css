@@ -57,7 +57,7 @@ img {
     font-weight: bold; 
     text-transform: uppercase; 
     text-align: center; 
-    background:linear-gradient(to right,#ff6600,#cc5200); 
+    background:linear-gradient right,#ff6600,#cc5200); 
     opacity: 0;
     transition: opacity 1.5s ease-in-out;
     
