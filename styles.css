@@ -322,7 +322,17 @@ input, textarea {
         width: 90%;
     }
 }
+@media (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
 
+    nav ul li {
+        margin: 10px 0;
+    }
+}
 /*======= Contact Container =======*/
 
 .contact-container { 
