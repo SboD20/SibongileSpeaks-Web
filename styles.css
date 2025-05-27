@@ -321,12 +321,6 @@ input, textarea {
     .overlay-text {
         width: 90%;
     }
-}
-@media (max-width: 768px) {
-    nav ul li {
-        margin: auto;
-    }
-}
 /*======= Contact Container =======*/
 
 .contact-container { 
