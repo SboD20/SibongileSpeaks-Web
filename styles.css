@@ -45,7 +45,7 @@ img {
 .hero { 
     background-image: url("images/Image1.jpg"); 
     background-size: cover; 
-    background-repeat: x-repeat;
+    background-repeat: no-repeat;
     background-position: center; 
     width: 100vw; 
     height: 100vh;
