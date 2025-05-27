@@ -5,7 +5,7 @@ body {
     background-color: #f8f9fa;
     color: #333; 
     text-align: center; 
-    max-width: 100%; 
+    width: 100%; 
 }
 
 table { 
@@ -95,7 +95,9 @@ ul {
 
 nav { 
     position: fixed;
-    top: 0; width: 100%; 
+    top: 0;
+	width: 100vw;
+	max-width: 100%;
     background-color: var(--accent-color); 
     padding: 15px 20px; z-index: 1000; 
 }
@@ -258,6 +260,9 @@ h2 {
     color:gold; 
 }
 
+h1 {
+    font-size: clamp(24px, 3vw, 48px);
+}
 
 .parent-container {
     height: auto;
@@ -268,6 +273,7 @@ h2 {
 .text-container { 
     display: flex; 
     flex-direction: column; 
+	flex-wrap: wrap;
     align-items: center; 
     padding: 20px; 
 }
