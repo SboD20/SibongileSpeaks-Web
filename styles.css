@@ -294,7 +294,9 @@ input, textarea {
     border-radius: 5px;
     border: 1px solid #ccc;
 }
-
+.testimonials-list {
+  margin-top: 2em;
+}
 /*======= Responsive Design =======*/
 
 @media (max-width: 768px) { 
