@@ -12,6 +12,7 @@ body {
 
 .container {
     padding: 1px
+    display: center;
 }
 /*======= CSS Variables =======*/
 :root { 
