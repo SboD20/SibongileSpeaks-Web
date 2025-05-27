@@ -10,11 +10,35 @@
 
     <div id="testimonials-section" class="testimonial-container">
         <h2><em>Share Your Experience</em></h2>
-        <form id="testimonial-form">
-            <input type="text" id="name" placeholder="Your Full Name" required>
-            <textarea id="message" placeholder="Write Your Feedback..." required></textarea>
-            <button type="submit">Submit Testimonial</button>
-        </form>
+	<form class="testimonial-form">
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email Address (Optional):</label>
+    <input type="email" id="email" name="email">
+
+    <label for="location">Location:</label>
+    <input type="text" id="location" name="location">
+
+    <label for="rating">Rate Your Experience:</label>
+    <select id="rating" name="rating">
+        <option value="5">5 - Excellent</option>
+        <option value="4">4 - Very Good</option>
+        <option value="3">3 - Good</option>
+        <option value="2">2 - Fair</option>
+        <option value="1">1 - Poor</option>
+    </select>
+
+    <label for="testimonial">Your Testimonial:</label>
+    <textarea id="testimonial" name="testimonial" rows="4" required></textarea>
+
+    <label for="photo">Upload an Image (Optional):</label>
+    <input type="file" id="photo" name="photo">
+
+    <input type="checkbox" id="consent" name="consent" required>
+    <label for="consent">I give permission for my testimonial to be published.</label>
+
+    <button type="submit">Submit Testimonial</button>
 
         <h2>Testimonials</h2>
         <div id="testimonial-list"></div>
