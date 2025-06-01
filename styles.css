@@ -85,10 +85,10 @@ img {
     transform: translate(-50%, -50%); 
     text-align: center; 
     background: rgba(0, 0, 0, 0.7); 
-    padding: 10px;
+    padding: 25px;
     margin: auto;
     transition: opacity 1.5s ease-in-out;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 
 .overlay-text h1 {
