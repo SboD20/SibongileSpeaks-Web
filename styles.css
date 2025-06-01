@@ -88,7 +88,7 @@ img {
     padding: 20px;
     transition: opacity 1.5s ease-in-out;
     border-radius: 10px;
-    z-index: 50;
+    margin: auto;
 }
 
 .overlay-text h1 {
