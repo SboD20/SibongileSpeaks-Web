@@ -39,11 +39,20 @@ tr:nth-child(even) {
 /*======= Hero Section =======*/
 img {
     max-width: 100%;
-    height: auto; 
-    display: flex; 
-    float: right;
-    float: left; 
-    margin-left: 20px; 
+    height: auto;
+    display: block; 
+    margin: auto; 
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    gap: 20px; 
+}
+
+.image-container img {
+    width: 48%; 
 }
 .hero { 
     background-image: url("images/Image1.jpg"); 
