@@ -41,7 +41,8 @@ img {
     max-width: 100%;
     height: auto; 
     display: flex; 
-    float: right; 
+    float: right;
+    float: left; 
     margin-left: 20px; 
 }
 .hero { 
