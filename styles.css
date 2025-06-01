@@ -41,6 +41,8 @@ img {
     max-width: 100%;
     height: auto; 
     display: flex; 
+    float: right; 
+    margin-left: 20px; 
 }
 .hero { 
     background-image: url("images/Image1.jpg"); 
