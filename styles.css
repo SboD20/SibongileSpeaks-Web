@@ -86,7 +86,6 @@ img {
     text-align: center; 
     background: rgba(0, 0, 0, 0.7); 
     padding: 20px;
-    margin: auto;
     transition: opacity 1.5s ease-in-out;
     border-radius: 10px;
     z-index: 10;
